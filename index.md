@@ -1,4 +1,4 @@
-Phone Numbers designed to test connectivity, Caller ID, and Robocall Flagging.
+Phone Numbers designed to test connectivity, Caller ID, and Robocall detection.
 
 ## Test Numbers
 
