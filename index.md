@@ -2,8 +2,8 @@ Phone Numbers designed to test connectivity, Caller ID, and Robocall detection.
 
 ## Test Numbers
 
+<a href="tel:+12345012333">+1-234-501-2333</a>
 <a href="tel:+18623621234">+1-862-362-1234</a>
-<a href="tel:+18623621234">+1-234-501-2333</a>
 
 ## Support or Contact
 
