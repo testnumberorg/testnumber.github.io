@@ -8,7 +8,7 @@ Phone Numbers designed to test connectivity, DTMF, Caller ID, and Robocall detec
 
 * <a href="tel:+12345012333">+1-234-501-2333</a>
 
-* <a href="sip:test1@sip.testnumber.org">sip:test1@sip.testnumber.org</a>
+* <a href="sip:test1@sip.testnumber.org:5060">sip:test1@sip.testnumber.org:5060</a>
 
 ## Support or Contact
 
