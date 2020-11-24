@@ -9,7 +9,3 @@ Phone Numbers designed to test connectivity, DTMF, Caller ID, and Robocall detec
 * <a href="tel:+12344444886">+1-234-444-4886</a>
 
 * <a href="sip:test1@sip.testnumber.org:5060">sip:test1@sip.testnumber.org:5060</a>
-
-## Support or Contact
-
-Feel free to send any feedback at <a href="https://digitdog.io/support">Support</a>
