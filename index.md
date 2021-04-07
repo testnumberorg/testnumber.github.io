@@ -1,6 +1,6 @@
 Phone Numbers designed to test connectivity, DTMF, Caller ID, and Robocall detection.
 
-*The Phone Numbers and SIP addresses at testnumber.org map to functions within Twilio and uses Scout to detect SPAM.
+*The Phone Numbers and SIP addresses at testnumber.org map to functions within [Twilio](http://twilio.com) and uses [Scout](http://scout.tel) to detect SPAM.
 
 # Test Numbers
 
