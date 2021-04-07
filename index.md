@@ -1,5 +1,7 @@
 Phone Numbers designed to test connectivity, DTMF, Caller ID, and Robocall detection.
 
+*The Phone Numbers and SIP addresses at testnumber.org map to functions within Twilio and uses Scout to detect SPAM.
+
 # Test Numbers
 
 * <a href="tel:+12345012333">+1-234-501-2333</a>
