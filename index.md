@@ -2,7 +2,7 @@
 
 *The Phone Numbers and SIP addresses at [testnumber.org](http://testnumber.org) map to functions within [Twilio](http://twilio.com) and uses [Scout](http://scout.tel) to detect SPAM.*
 
-##### Test Phone Numbers
+##### Test PSTN Numbers
 
 * <a href="tel:+12345012333">+1-234-501-2333</a>
 
