@@ -1,4 +1,4 @@
-*The Phone Numbers and SIP addresses at [testnumber.org](http://testnumber.org) map to functions within [Twilio](http://twilio.com) and uses [Scout](http://scout.tel) to detect SPAM.*
+*The Phone Numbers and SIP addresses at [testnumber.org](http://testnumber.org) map to [Twilio](http://twilio.com) functions which use [Scout](http://scout.tel) to detect Robocalls.*
 
 #### Test PSTN Numbers
 
