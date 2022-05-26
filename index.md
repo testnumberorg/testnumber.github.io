@@ -1,4 +1,14 @@
+#### How It Works
+
 *The Phone Numbers and SIP addresses at [testnumber.org](http://testnumber.org) map to [Twilio](http://twilio.com) functions which use [Scout](http://scout.tel) to detect Robocalls.*
+
+#### Current Features
+
+#### Current Features
+- Determines the calling number
+- Determines the STIR/SHAKEN attestation level
+- Determines if the calling number is flagged as a robocaller
+- Determines if DTMF is working properly
 
 #### Test PSTN Numbers
 
