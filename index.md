@@ -9,6 +9,10 @@
 - Determines if the calling number is flagged as a robocaller
 - Determines if DTMF is working properly
 
+#### Usage
+
+Simply call one of the Telelphone nuumbers or SIP addresses listed below. Listen on the line for information about your calling number.
+
 #### Test PSTN Numbers
 
 * <a href="tel:+12602701982">+1-260-270-1982</a>
