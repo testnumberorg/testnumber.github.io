@@ -11,7 +11,7 @@
 
 #### Usage
 
-Simply call one of the Telelphone nuumbers or SIP addresses listed below. Listen on the line for information about your calling number.
+Simply call one of the Telelphone numbers or SIP addresses listed below. Listen on the line for information about your calling number.
 
 #### Test PSTN Numbers
 
