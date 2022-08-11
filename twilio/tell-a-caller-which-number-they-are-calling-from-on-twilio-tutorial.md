@@ -1,10 +1,12 @@
 # How to Create a Phone Number can tell Callers their Number
 
+---
 
 ## Buy a Twilio Phone Number
 
+---
 
-  ![Buy a Twilio Number](/assets/images/buy-a-twilio-number.png)
+![Buy a Twilio Number](/assets/images/buy-a-twilio-number.png)
 
   ![Purchased Twilio Number](/assets/images/twilio-number-purchased.png)
 
@@ -12,7 +14,7 @@
 ## Create the Twilio Function  
 
 
-  ![Find Twilio Functions and Assets in the Console](/assets/images/find-functions-and-assets.png)
+![Find Twilio Functions and Assets in the Console](/assets/images/find-functions-and-assets.png)
 
   ![Create a New Service](/assets/images/create-a-new-service.png)
 
