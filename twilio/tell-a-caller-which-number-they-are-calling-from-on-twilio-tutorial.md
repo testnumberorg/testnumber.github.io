@@ -13,6 +13,8 @@
 
   ![Buy a Twilio Number](/assets/images/buy-a-twilio-number.png)
 
+  <br/>
+
   > Verify purchased Number
 
   ![Purchased Twilio Number](/assets/images/twilio-number-purchased.png)
@@ -27,13 +29,19 @@
 
   ![Find Twilio Functions and Assets in the Console](/assets/images/find-functions-and-assets.png)
 
+  <br/>
+
   > Create a New Service called `incoming-number-detector`
 
   ![Create a New Service](/assets/images/create-a-new-service.png)
+  
+  <br/>
 
   > Create a New Function in the `incoming-number-detector` Service called `main`
 
   ![Create a New Function called main](/assets/images/create-a-new-main-function.png)
+
+  <br/>
 
   > Post the following in the Editor for the `main` Function.
 
@@ -75,6 +83,8 @@
   > Enable the Function for incoming calls to the new Number
 
   ![Enable the Function for incoming calls to the new Number](/assets/images/enable-the-number-detector-function.png)
+
+  <br/>
 
   > Verify the function is the default for the Number
 
