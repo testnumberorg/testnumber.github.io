@@ -1,4 +1,5 @@
-# How to Create a Phone Number can tell Callers their Number
+
+# How to Create a Phone Number can will Callers their Caller Id
 
 ---
 
@@ -6,13 +7,13 @@
 
 ---
 
-![Buy a Twilio Number](/assets/images/buy-a-twilio-number.png)
+  ![Buy a Twilio Number](/assets/images/buy-a-twilio-number.png)
 
   ![Purchased Twilio Number](/assets/images/twilio-number-purchased.png)
 
-
 ## Create the Twilio Function  
 
+---
 
 ![Find Twilio Functions and Assets in the Console](/assets/images/find-functions-and-assets.png)
 
@@ -52,9 +53,9 @@
     };
   ```
 
-
 ## Configure the Phone Number
 
+---
 
   ![Enable the Function for incoming calls to the new Number](/assets/images/enable-the-number-detector-function.png)
 
@@ -62,5 +63,7 @@
 
 
 ## Call the Phone Number
+
+---
 
   * Dial the Phone Number from a working Telephone
