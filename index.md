@@ -25,4 +25,4 @@ Simply call one of the Telelphone nuumbers or SIP addresses listed below. Listen
 
 #### Twilio Setup
 
-[setup](/twilio-setup)
+[setup](https://testnumber.org/twilio-setup)
