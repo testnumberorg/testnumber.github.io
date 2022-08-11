@@ -12,7 +12,7 @@
 
   ![Create a New Service](/assets/images/create-a-new-service.png)
 
-  ![Create a New Function](/assets/images/find-functions-and-assets.png)
+  ![Create a New Function](/assets/images/create-a-new-main-function.png)
 
 ## Configure the Phone Number
 
