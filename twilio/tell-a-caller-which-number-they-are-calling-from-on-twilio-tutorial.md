@@ -15,13 +15,13 @@
 
 ---
 
-![Find Twilio Functions and Assets in the Console](/assets/images/find-functions-and-assets.png)
+  ![Find Twilio Functions and Assets in the Console](/assets/images/find-functions-and-assets.png)
 
   ![Create a New Service](/assets/images/create-a-new-service.png)
 
   ![Create a New Function called main](/assets/images/create-a-new-main-function.png)
 
-  > Past the following in the Editor for the main Function.
+    Post the following in the Editor for the main Function.
 
   ```
     exports.handler = function(context, event, callback) {      
