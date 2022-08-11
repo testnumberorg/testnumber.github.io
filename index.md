@@ -22,3 +22,7 @@ Simply call one of the Telelphone nuumbers or SIP addresses listed below. Listen
 #### Test SIP Addresses
 
 * <a href="sip:test1@sip.testnumber.org:5060">sip:test1@sip.testnumber.org:5060</a>
+
+#### Twilio Setup
+
+[setup](/twilio-setup)
