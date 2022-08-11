@@ -3,6 +3,8 @@
 
 ---
 
+<br/>
+
 ## Buy a Twilio Phone Number
 
 ---
@@ -14,6 +16,8 @@
   > Verify purchased Number
 
   ![Purchased Twilio Number](/assets/images/twilio-number-purchased.png)
+
+<br/>
 
 ## Create the Twilio Function  
 
@@ -62,6 +66,7 @@
       return callback(null, twiml);
     };
   ```
+<br/>
 
 ## Configure the Phone Number
 
@@ -75,6 +80,7 @@
 
   ![Verify the function is the default for the Number](/assets/images/verify-the-function-is-the-default-for-the-number.png)
 
+<br/>
 
 ## Call the Phone Number
 
