@@ -1,6 +1,6 @@
-#### How It Works
+#### What's testnumber.org?
 
-*The Phone Numbers and SIP addresses at [testnumber.org](http://testnumber.org) map to [Twilio](http://twilio.com) functions which use [Scout](http://scout.tel) to detect Robocalls.*
+We're a develop tools to help test and troubleshoot telecommunications.
 
 #### Current Features
 
@@ -11,7 +11,7 @@
 
 #### Usage
 
-Simply call one of the Telelphone numbers or SIP addresses listed below. Listen on the line for information about your calling number.
+Simply call one of the Telephone Numbers or SIP addresses listed below. Listen on the line for information about your calling number.
 
 #### Test PSTN Numbers
 
@@ -22,3 +22,7 @@ Simply call one of the Telelphone numbers or SIP addresses listed below. Listen 
 #### Test SIP Addresses
 
 * <a href="sip:test1@sip.testnumber.org:5060">sip:test1@sip.testnumber.org:5060</a>
+
+#### How It Works
+
+*The Phone Numbers and SIP addresses at [testnumber.org](http://testnumber.org) map to [Twilio](http://twilio.com) functions which use [Scout](http://scout.tel) to detect Robocalls.*
