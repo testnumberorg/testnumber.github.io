@@ -21,7 +21,7 @@
 
   ![Create a New Function called main](/assets/images/create-a-new-main-function.png)
 
-    Post the following in the Editor for the main Function.
+  *Post the following in the Editor for the main Function.*
 
   ```
     exports.handler = function(context, event, callback) {      
