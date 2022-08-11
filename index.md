@@ -1,6 +1,6 @@
 #### What's testnumber.org?
 
-We're a develop tools to help test and troubleshoot telecommunications.
+*We develop tools to help test and troubleshoot telecommunications.*
 
 #### Current Features
 
@@ -11,7 +11,7 @@ We're a develop tools to help test and troubleshoot telecommunications.
 
 #### Usage
 
-Simply call one of the Telephone Numbers or SIP addresses listed below. Listen on the line for information about your calling number.
+*Simply call one of the Telephone Numbers or SIP addresses listed below. Listen on the line for information about your calling number.*
 
 #### Test PSTN Numbers
 
