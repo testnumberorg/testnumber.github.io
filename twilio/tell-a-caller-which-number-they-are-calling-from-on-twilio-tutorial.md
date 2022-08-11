@@ -1,12 +1,16 @@
 # How to create a Twilio Phone Number Service that tells Callers their Calling Number
 
+
 ## Buy a Twilio Phone Number
+
 
   ![Buy a Twilio Number](/assets/images/buy-a-twilio-number.png)
 
   ![Purchased Twilio Number](/assets/images/twilio-number-purchased.png)
 
+
 ## Create the Twilio Function  
+
 
   ![Find Twilio Functions and Assets in the Console](/assets/images/find-functions-and-assets.png)
 
@@ -14,7 +18,8 @@
 
   ![Create a New Function called main](/assets/images/create-a-new-main-function.png)
 
-  Past the following in the Editor for the main Function.
+  > Past the following in the Editor for the main Function.
+
   ```
     exports.handler = function(context, event, callback) {      
       let twiml = new Twilio.twiml.VoiceResponse();        
@@ -45,11 +50,14 @@
     };
   ```
 
+
 ## Configure the Phone Number
+
 
   ![Enable the Function for incoming calls to the new Number](/assets/images/enable-the-number-detector-function.png)
 
   ![Verify the function is the default for the Number](/assets/images/verify-the-function-is-the-default-for-the-number.png)
+
 
 ## Call the Phone Number
 
