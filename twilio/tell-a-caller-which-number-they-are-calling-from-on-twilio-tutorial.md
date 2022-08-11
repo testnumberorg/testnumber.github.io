@@ -1,17 +1,17 @@
 
 # How to Create a Phone Number can will Callers their Caller Id
 
-
 ---
-
 
 ## Buy a Twilio Phone Number
 
-
 ---
 
+  > Buy a Twilio Number
 
   ![Buy a Twilio Number](/assets/images/buy-a-twilio-number.png)
+
+  > Verify purchased Number
 
   ![Purchased Twilio Number](/assets/images/twilio-number-purchased.png)
 
@@ -19,13 +19,19 @@
 
 ---
 
+  > Find Twilio Functions and Assets in the Console
+
   ![Find Twilio Functions and Assets in the Console](/assets/images/find-functions-and-assets.png)
+
+  > Create a New Service called `incoming-number-detector`
 
   ![Create a New Service](/assets/images/create-a-new-service.png)
 
+  > Create a New Function in the `incoming-number-detector` Service called `main`
+
   ![Create a New Function called main](/assets/images/create-a-new-main-function.png)
 
-  *Post the following in the Editor for the main Function.*
+  > Post the following in the Editor for the `main` Function.
 
   ```
     exports.handler = function(context, event, callback) {      
@@ -61,7 +67,11 @@
 
 ---
 
+  > Enable the Function for incoming calls to the new Number
+
   ![Enable the Function for incoming calls to the new Number](/assets/images/enable-the-number-detector-function.png)
+
+  > Verify the function is the default for the Number
 
   ![Verify the function is the default for the Number](/assets/images/verify-the-function-is-the-default-for-the-number.png)
 
