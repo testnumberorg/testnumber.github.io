@@ -29,4 +29,4 @@
 
 ## Tutorials
 
-* Learn how to find the calling number as shown in the Test Numbers [here](/twilio/how-to-detect-the-number-a-caller-is-calling-from-on-twilio)
+* Learn how to access the calling number similar to our test numbers [here](/twilio/how-to-detect-the-number-a-caller-is-calling-from-on-twilio)
