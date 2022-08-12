@@ -3,7 +3,7 @@
 
 <br/>
 
-## Login into Twilio and buy a Phone Number
+## Login into Twilio's Console and buy a Phone Number
 
 ---
 
