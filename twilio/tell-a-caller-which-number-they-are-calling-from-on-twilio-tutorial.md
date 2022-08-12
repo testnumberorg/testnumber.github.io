@@ -1,5 +1,5 @@
 
-# <center>How to create a service that will reply to every call with their caller-id.</center>
+# <center>**How to create a service that will reply to every call with their caller-id.**</center>
 
 <br/>
 
@@ -8,7 +8,7 @@
 ---
 
   * Log in to the [Twilio Console](https://console.twilio.com)
-  * Navigate to `Products > Super Network > Phone Numbers > Manage > Buy a number`
+  * Navigate to`Products > Super Network > Phone Numbers > Manage > Buy a number`
 
   > Buy a Twilio Number
 
@@ -16,15 +16,17 @@
 
   <br/>
 
-  > Verify purchased Number
+  > Verify the purchased Number
 
   ![Purchased Twilio Number](/assets/images/twilio-number-purchased.png)
 
 <br/>
 
-## Create the Twilio Function  
+## Create a Twilio Function  
 
 ---
+
+  * This Service Function will be configured to be called on every inbound call
 
   > Find Twilio Functions and Assets in the Console
 
@@ -49,9 +51,10 @@
   ```
   exports.handler = function(context, event, callback) {  
     let twiml = new Twilio.twiml.VoiceResponse();        
-    let fromNumber = event["Caller"];  
-    let speechFriendlyFromNumber = fromNumber.slice(1).split("").join(" ");
+    let fromNumber = event["Caller"]; // The From number is contained in this key 
+    let speechFriendlyFromNumber = fromNumber.slice(1).split("").join(" "); // Format it better for speech
 
+    // Add a few cosmetic pauses
     twiml.pause({
       length: 2
     });
@@ -62,17 +65,23 @@
       length: 1
     });
 
+    // Tell the caller what we have detected as the From Number
     twiml.say({ voice: "alice" }, "You are calling from " + speechFriendlyFromNumber + ".");
 
     twiml.pause({
       length: 1
     });
 
+    // Bid them farewell
     twiml.say({ voice: "alice" }, "Goodbye.");
 
     return callback(null, twiml);
   };    
   ```
+
+  * Save **/main**
+  * Press **Deploy All** at the bottom of the Editor
+
 <br/>
 
 ## Configure the Phone Number
@@ -85,7 +94,7 @@
 
   <br/>
 
-  > Verify the Function is the default for the Number
+  > Verify the Function is the default for the new Number
 
   ![Verify the function is the default for the Number](/assets/images/verify-the-function-is-the-default-for-the-number.png)
 
@@ -96,3 +105,5 @@
 ---
 
   * Dial the Phone Number from a working Telephone
+  * You should hear your Number repeated back to you
+  * We'll cover debugging in another lesson
