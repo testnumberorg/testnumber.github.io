@@ -1,3 +1,7 @@
+---
+title: Test PSTN Phone Numbers and SIP Addresses
+description: How to Create a Phone Number that can tell Callers their Caller Id
+---
 
 # <center>How to Create a Phone Number that can tell Callers their Caller Id</center>
 
@@ -6,6 +10,8 @@
 ## Buy a Twilio Phone Number
 
 ---
+
+  * Log in to the [https://console.twilio.com](Twilio Console)
 
   > Buy a Twilio Number
 
@@ -29,13 +35,13 @@
 
   <br/>
 
-  > Create a New Service called **incoming-number-detector**
+  > Create a new Service called **incoming-number-detector**
 
   ![Create a New Service](/assets/images/create-a-new-service.png)
   
   <br/>
 
-  > Create a New Function in the **incoming-number-detector** Service called **/main**
+  > Create a new Function in the **incoming-number-detector** Service called **/main**
 
   ![Create a New Function called /main](/assets/images/create-a-new-main-function.png)
 
@@ -82,7 +88,7 @@
 
   <br/>
 
-  > Verify the function is the default for the Number
+  > Verify the Function is the default for the Number
 
   ![Verify the function is the default for the Number](/assets/images/verify-the-function-is-the-default-for-the-number.png)
 
