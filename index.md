@@ -29,4 +29,4 @@
 
 #### Tutorials
 
-* Learn how to find the calling number on an inbound call like we do in the Test Numbers [/twilio/how-to-detect-the-number-a-caller-is-calling-from-on-twilio](here)
+* Learn how to find the calling number as shown in the Test Numbers [here](/twilio/how-to-detect-the-number-a-caller-is-calling-from-on-twilio)
