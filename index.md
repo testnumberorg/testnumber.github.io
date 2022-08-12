@@ -1,6 +1,6 @@
 ## What's testnumber.org?
 
-    *We develop tools that test and troubleshoot communications technology.*
+  *We develop tools that test and troubleshoot communications technology.*
 
 ## Current Features
 
@@ -25,7 +25,7 @@
 
 ## How It Works
 
-    *The Phone Numbers and SIP addresses at [testnumber.org](http://testnumber.org) map to [Twilio](http://twilio.com) functions which use [Scout](http://scout.tel) to detect Robocalls.*
+  *The Phone Numbers and SIP addresses at [testnumber.org](http://testnumber.org) map to [Twilio](http://twilio.com) functions which use [Scout](http://scout.tel) to detect Robocalls.*
 
 ## Tutorials
 
