@@ -1,17 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!--
- created with Free Online Sitemap Generator www.xml-sitemaps.com 
--->
-<url>
-<loc>https://testnumber.org/</loc>
-<lastmod>2020-11-12T20:35:03+00:00</lastmod>
-</url>
-<url>
-<loc>https://testnumber.org/index</loc>
-<lastmod>2022-08-10T20:35:03+00:00</lastmod>
-</url>
-<url>
-<loc>https://testnumber.org/twilio/how-to-detect-the-number-a-caller-is-calling-from-on-twilio.html</loc>
-<lastmod>2022-08-11T00:35:03+00:00</lastmod>
-</url>
+  <url>
+    <loc>https://testnumber.org/</loc>
+    <lastmod>2020-11-12</lastmod>
+  </url>
+  <url>
+    <loc>https://testnumber.org/index</loc>
+    <lastmod>2022-08-10</lastmod>
+  </url>
+  <url>
+    <loc>https://testnumber.org/twilio/how-to-detect-the-number-a-caller-is-calling-from-on-twilio</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
 </urlset>
