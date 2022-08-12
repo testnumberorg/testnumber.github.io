@@ -29,24 +29,25 @@
 
   <br/>
 
-  > Create a New Service called `incoming-number-detector`
+  > Create a New Service called **incoming-number-detector**
 
   ![Create a New Service](/assets/images/create-a-new-service.png)
   
   <br/>
 
-  > Create a New Function in the `incoming-number-detector` Service called `main`
+  > Create a New Function in the **incoming-number-detector** Service called **/main**
 
-  ![Create a New Function called main](/assets/images/create-a-new-main-function.png)
+  ![Create a New Function called /main](/assets/images/create-a-new-main-function.png)
 
   <br/>
 
-  > Post the following in the Editor for the `main` Function.
+  > Paste the following javascript in the Editor for the **/main** Function.
 
   ```
-    exports.handler = function(context, event, callback) {      
+    exports.handler = function(context, event, callback) {  
       let twiml = new Twilio.twiml.VoiceResponse();        
       let fromNumber = event["Caller"];  
+      let speechFriendlyFromNumber = fromNumber.slice(1).split("").join(" ");
 
       twiml.pause({
         length: 2
@@ -58,7 +59,7 @@
         length: 1
       });
 
-      twiml.say({ voice: "alice" }, "You are calling from " + fromNumber.slice(1).split("").join(" ") + ".");
+      twiml.say({ voice: "alice" }, "You are calling from " + speechFriendlyFromNumber + ".");
 
       twiml.pause({
         length: 1
@@ -66,11 +67,8 @@
 
       twiml.say({ voice: "alice" }, "Goodbye.");
 
-      // This callback is what is returned in response to this function being invoked.
-      // It's really important! E.g. you might respond with TWiML here for a voice or SMS response.
-      // Or you might return JSON data to a studio flow. Don't forget it!
       return callback(null, twiml);
-    };
+    };    
   ```
 <br/>
 
