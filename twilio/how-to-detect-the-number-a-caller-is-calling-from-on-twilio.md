@@ -18,7 +18,7 @@
 
   > Verify the purchased Number
 
-  ![Purchased Twilio Number](/assets/images/twilio-number-purchased.png)
+  [![Purchased Twilio Number](/assets/images/twilio-number-purchased.png)](/assets/images/twilio-number-purchased.png)
 
 <br/>
 
