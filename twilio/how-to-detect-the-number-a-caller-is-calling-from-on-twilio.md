@@ -12,7 +12,7 @@
 
   > Buy a Twilio Number
 
-  ![Buy a Twilio Number](/assets/images/buy-a-twilio-number.png)
+  [![Buy a Twilio Number](/assets/images/buy-a-twilio-number.png)]](/assets/images/buy-a-twilio-number.png)
 
   <br/>
 
