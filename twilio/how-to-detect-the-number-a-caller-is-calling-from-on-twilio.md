@@ -30,19 +30,19 @@
 
   > Find Twilio Functions and Assets in the Console
 
-  ![Find Twilio Functions and Assets in the Console](/assets/images/find-functions-and-assets.png)
+  [![Find Twilio Functions and Assets in the Console](/assets/images/find-functions-and-assets.png)](/assets/images/find-functions-and-assets.png)
 
   <br/>
 
   > Create a new Service called **incoming-number-detector**
 
-  ![Create a New Service](/assets/images/create-a-new-service.png)
+  [![Create a New Service](/assets/images/create-a-new-service.png)](/assets/images/create-a-new-service.png)
   
   <br/>
 
   > Create a new Function in the **incoming-number-detector** Service called **/main**
 
-  ![Create a New Function called /main](/assets/images/create-a-new-main-function.png)
+  [![Create a New Function called /main](/assets/images/create-a-new-main-function.png)](/assets/images/create-a-new-main-function.png)
 
   <br/>
 
@@ -90,13 +90,13 @@
 
   > Enable the Function for incoming calls to the new Number
 
-  ![Enable the Function for incoming calls to the new Number](/assets/images/enable-the-number-detector-function.png)
+  [![Enable the Function for incoming calls to the new Number](/assets/images/enable-the-number-detector-function.png)](/assets/images/enable-the-number-detector-function.png)
 
   <br/>
 
   > Verify the Function is the default for the new Number
 
-  ![Verify the function is the default for the Number](/assets/images/verify-the-function-is-the-default-for-the-number.png)
+  [![Verify the function is the default for the Number](/assets/images/verify-the-function-is-the-default-for-the-number.png)](/assets/images/verify-the-function-is-the-default-for-the-number.png)
 
 <br/>
 
@@ -104,6 +104,6 @@
 
 ---
 
-  * Dial the Phone Number from a working Telephone
-  * You should hear your Number repeated back to you
-  * We'll cover debugging in another lesson
+  * Dial the Phone Number from a working telephone
+  * You should hear your Caller ID repeated back to you
+  * We'll cover debugging in another session
