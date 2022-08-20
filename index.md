@@ -1,6 +1,6 @@
-## What's testnumber.org?
+## Test PSTN and VOIP Calls
 
-  *We develop tools to test and troubleshoot communications technology.*
+  *We create tools to make it easy test and troubleshoot phone calls.*
 
 ## Current Features
 
