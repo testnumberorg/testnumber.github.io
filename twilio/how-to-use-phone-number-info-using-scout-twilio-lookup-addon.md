@@ -6,7 +6,7 @@
 
 ---
 
-  - Follow the directions listed [here](https://www.scout.tel/blog/2021/7/12/how-to-install-scout-phone-number-lookup-twilio-addon)
+  - Follow the directions to install the Scout Addon [here](https://www.scout.tel/blog/2021/7/12/how-to-install-scout-phone-number-lookup-twilio-addon)
   - Follow our tutorial covering setting up an inbound Twilio phone number [here](/twilio/how-to-detect-the-number-a-caller-is-calling-from-on-twilio)
 
 ## Update your **incoming-number-detector** Twilio Service **/main** Function
@@ -22,9 +22,9 @@
     let twiml = new Twilio.twiml.VoiceResponse();        
     let fromNumber = event["Caller"]; // The From number is contained in this key 
     let speechFriendlyFromNumber = fromNumber.slice(1).split("").join(" "); // Format it better for speech
-    let addons = JSON.parse(event["AddOns"]);
-    let scoutResult = addons.results.icehook_scout.result;  
-    let spamRating = scoutResult.spam_rating;
+    let addons = JSON.parse(event["AddOns"]); // Parse your Addon data
+    let scoutResult = addons.results.icehook_scout.result; // Grab the Scout data in particular
+    let spamRating = scoutResult.spam_rating; // Explicitly set the Scout spam rating
 
     // Add a few cosmetic pauses
     twiml.pause({
@@ -44,6 +44,7 @@
       length: 1
     });
 
+    // If the Scout spam rating is equal to or above 60 let the caller know their number is suspect
     if(spamRating >= 60)
       twiml.say({ voice: "alice" }, "Scout determined this is probably a row bo call.");
     else
