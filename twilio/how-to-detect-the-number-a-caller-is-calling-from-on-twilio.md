@@ -49,34 +49,34 @@
   > Paste the following javascript in the Editor for the **/main** Function.
 
   ```
-  exports.handler = function(context, event, callback) {  
-    let twiml = new Twilio.twiml.VoiceResponse();        
-    let fromNumber = event["Caller"]; // The From number is contained in this key 
-    let speechFriendlyFromNumber = fromNumber.slice(1).split("").join(" "); // Format it better for speech
+    exports.handler = function(context, event, callback) {  
+      let twiml = new Twilio.twiml.VoiceResponse();        
+      let fromNumber = event["Caller"]; // The From number is contained in this key 
+      let speechFriendlyFromNumber = fromNumber.slice(1).split("").join(" "); // Format it better for speech
 
-    // Add a few cosmetic pauses
-    twiml.pause({
-      length: 2
-    });
+      // Add a few cosmetic pauses
+      twiml.pause({
+        length: 2
+      });
 
-    twiml.say({ voice: "alice" }, "Welcome to test number dot org.");
+      twiml.say({ voice: "alice" }, "Welcome to test number dot org.");
 
-    twiml.pause({
-      length: 1
-    });
+      twiml.pause({
+        length: 1
+      });
 
-    // Tell the caller what we have detected as the From Number
-    twiml.say({ voice: "alice" }, "You are calling from " + speechFriendlyFromNumber + ".");
+      // Tell the caller what we have detected as the From Number
+      twiml.say({ voice: "alice" }, "You are calling from " + speechFriendlyFromNumber + ".");
 
-    twiml.pause({
-      length: 1
-    });
+      twiml.pause({
+        length: 1
+      });
 
-    // Bid them farewell
-    twiml.say({ voice: "alice" }, "Goodbye.");
+      // Bid them farewell
+      twiml.say({ voice: "alice" }, "Goodbye.");
 
-    return callback(null, twiml);
-  };    
+      return callback(null, twiml);
+    };    
   ```
 
   * Save **/main**

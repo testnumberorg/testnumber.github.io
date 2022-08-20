@@ -1,6 +1,6 @@
 ## What's testnumber.org?
 
-  *We develop tools that test and troubleshoot communications technology.*
+  *We develop tools to test and troubleshoot communications technology.*
 
 ## Current Features
 
@@ -11,7 +11,7 @@
 
 ## Usage
 
-  *Simply call one of the Telephone Numbers or SIP addresses listed below. Listen on the line for information about your calling number.*
+  *Simply call one of the Telephone Numbers or SIP addresses listed below. Listen on the line for information about your call and calling number.*
 
 ## Test PSTN Numbers
 
@@ -29,8 +29,8 @@
 
 ## SHAKEN/STIR Response Reference
 
-  *The SHAKEN/STIR response is derived from Twilio's implementation which is documented [here](https://www.twilio.com/docs/voice/trusted-calling-with-shakenstir)*
+  *Currently the SHAKEN/STIR response is derived from Twilio's implementation which is documented [here](https://www.twilio.com/docs/voice/trusted-calling-with-shakenstir)*
 
 ## Tutorials
 
-* Learn how to access the calling number similar to our test numbers [here](/twilio/how-to-detect-the-number-a-caller-is-calling-from-on-twilio)
+  * Learn how to access the calling number similar to our test numbers [here](/twilio/how-to-detect-the-number-a-caller-is-calling-from-on-twilio)
