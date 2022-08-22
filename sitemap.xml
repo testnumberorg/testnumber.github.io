@@ -2,12 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://testnumber.org/</loc>
-    <lastmod>2020-11-12</lastmod>
-  </url>
-  <url>
-    <loc>https://testnumber.org/index</loc>
-    <lastmod>2022-08-10</lastmod>
-  </url>
+    <lastmod>2022-08-22</lastmod>
+  </url>  
   <url>
     <loc>https://testnumber.org/twilio/how-to-detect-the-number-a-caller-is-calling-from-on-twilio</loc>
     <lastmod>2022-08-11</lastmod>
