@@ -58,7 +58,7 @@
     });
 
     // Tell the caller their scout risk rating
-    twiml.say({ voice: "alice" }, "Scout determined your row bo call risk rating is " + riskRating + ".");
+    twiml.say({ voice: "alice" }, "Scout determined your row bo call risk rating is " + riskRating.replace("_", " ") + ".");
 
     twiml.pause({
       length: 1
