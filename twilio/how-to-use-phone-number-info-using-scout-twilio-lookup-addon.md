@@ -7,7 +7,7 @@
 ---
 
   - Create a Twilio Voice Service that will answer an incoming call
-  - Retreive the [Scout](https://scout.tel) Risk Level
+  - Retreive the [Scout](https://scout.tel) Lookup Addon Result which includes Risk Rating
   - Tell the caller their detected From Number and SPAM Risk Rating
 
 <br/>  
