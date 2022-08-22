@@ -8,7 +8,7 @@
 
   - Create a Twilio Voice Service that will answer an incoming call
   - Retreive the [Scout](https://scout.tel) Risk Level
-  - Tell the caller their detected From Number and SPAM Risk Level
+  - Tell the caller their detected From Number and SPAM Risk Rating
 
 <br/>  
 
@@ -57,8 +57,8 @@
       length: 1
     });
 
-    // Tell the caller their scout risk level
-    twiml.say({ voice: "alice" }, "Scout determined your row bo call risk level is " + riskLevel + ".");
+    // Tell the caller their scout risk rating
+    twiml.say({ voice: "alice" }, "Scout determined your row bo call risk rating is " + riskRating + ".");
 
     twiml.pause({
       length: 1
