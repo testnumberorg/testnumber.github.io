@@ -6,7 +6,7 @@
 
 - Determines the calling number
 - Determines the STIR/SHAKEN attestation level
-- Determines if the calling number is flagged as a robocaller
+- Determines if the calling number is flagged as a robocaller according to [Scout](https://scout.tel)
 - Determines if DTMF is working properly
 
 ## Usage
