@@ -2,12 +2,24 @@
 
 <br/>
 
+## Objective
+
+---
+
+  - Create a Twilio Voice Service that will answer an incoming call
+  - Retreive the [Scout](https://scout.tel) Risk Level
+  - Tell the caller their detected From Number and SPAM Risk Level
+
+<br/>  
+
 ## Install the Scout Lookup Addon for Twilio and create an inbound Phone Number
 
 ---
 
   - Follow the directions to install the Scout Addon [here](https://www.scout.tel/blog/2021/7/12/how-to-install-scout-phone-number-lookup-twilio-addon)
   - Follow our tutorial covering setting up an inbound Twilio phone number [here](/twilio/how-to-detect-the-number-a-caller-is-calling-from-on-twilio)
+
+<br/>
 
 ## Update your **incoming-number-detector** Twilio Service **/main** Function
 
@@ -24,7 +36,8 @@
     let speechFriendlyFromNumber = fromNumber.slice(1).split("").join(" "); // Format it better for speech
     let addons = JSON.parse(event["AddOns"]); // Parse your Addon data
     let scoutResult = addons.results.icehook_scout.result; // Grab the Scout data in particular
-    let spamRating = scoutResult.spam_rating; // Explicitly set the Scout spam rating
+    let riskRating = scoutResult.spam_rating; // Explicitly set the Scout risk rating
+    let riskLevel = scoutResult.spam_level; // Explicitly set the Scout risk level
 
     // Add a few cosmetic pauses
     twiml.pause({
@@ -44,11 +57,8 @@
       length: 1
     });
 
-    // If the Scout spam rating is equal to or above 60 let the caller know their number is suspect
-    if(spamRating >= 60)
-      twiml.say({ voice: "alice" }, "Scout determined this is probably a row bo call.");
-    else
-      twiml.say({ voice: "alice" }, "Scout determined this is probably not a row bo call.");
+    // Tell the caller their scout risk level
+    twiml.say({ voice: "alice" }, "Scout determined your row bo call risk level is " + riskLevel + ".");
 
     twiml.pause({
       length: 1
