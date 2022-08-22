@@ -35,5 +35,5 @@
 
 ## Tutorials
 
-  * Learn how to access the calling number similar to our test numbers [here](/twilio/how-to-detect-the-number-a-caller-is-calling-from-on-twilio)
-  * Learn to use [Scout](https://scout.tel) to find the SPAM Risk Rating of an incoming call [here](/twilio/how-to-use-phone-number-info-using-scout-twilio-lookup-addon)
+  * Learn how we access the calling number in Twilio call flow [here](/twilio/how-to-detect-the-number-a-caller-is-calling-from-on-twilio)
+  * Learn to use [Scout](https://scout.tel) to find the SPAM Risk Rating of an incoming Twilio call [here](/twilio/how-to-use-phone-number-info-using-scout-twilio-lookup-addon)
