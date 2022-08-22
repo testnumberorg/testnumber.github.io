@@ -76,7 +76,7 @@
     twiml.say({ voice: "alice" }, "Goodbye.");
 
     return callback(null, twiml);
-    };    
+  };    
   ```
 
   * Save **/main**
