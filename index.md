@@ -27,7 +27,7 @@
 
 ## How It Works
 
-  *The Phone Numbers and SIP addresses at [testnumber.org](http://testnumber.org) map to [Twilio](http://twilio.com) functions which use [Scout](http://scout.tel) to detect Robocalls.*
+  *The Phone Numbers and SIP addresses at [testnumber.org](http://testnumber.org) map to [Twilio](http://twilio.com) functions which use [Scout](https://scout.tel) to detect Robocalls.*
 
 ## SHAKEN/STIR Response Reference
 
