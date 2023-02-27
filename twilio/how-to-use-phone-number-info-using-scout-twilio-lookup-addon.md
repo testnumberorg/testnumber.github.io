@@ -16,7 +16,7 @@
 
 ---
 
-  - Follow the directions to install the Scout Addon [here](https://scout.tel/tutorials/2021/06/12/how-to-install-the-scout-twilio-lookup-addon/)
+  - Follow the directions to install the Scout Addon [here](https://scout.tel/tutorials/2021/06/12/how-to-install-the-scout-twilio-lookup-addon)
   - Follow our tutorial covering setting up an inbound Twilio phone number [here](/twilio/how-to-detect-the-number-a-caller-is-calling-from-on-twilio)
 
 <br/>
